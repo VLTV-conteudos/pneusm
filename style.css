@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFD700; /* fundo amarelo */
+}
+header {
+    background: #111;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.banner {
+    background: #B22222; /* vermelho escuro */
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+.produtos {
+    padding: 2em;
+    text-align: center;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.produto {
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: 200px;
+    background: white;
+}
+.produto img {
+    width: 100%;
+}
+.botao {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #B22222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.avaliacao {
+    text-align: center;
+    padding: 2em;
+}
+.estrelas span {
+    font-size: 2em;
+    color: gold;
+}
+.whatsapp-button {
+    display: block;
+    width: max-content;
+    margin: 2em auto;
+    padding: 1em 2em;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
